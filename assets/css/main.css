@@ -32,6 +32,18 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+ 
+.logo-container {
+    padding: 10px;  /* Adds 20px spacing around the logo */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 93px;
+    height: auto;
+}
 
 ol, ul {
 	list-style: none;
