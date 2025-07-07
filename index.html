@@ -481,7 +481,7 @@
 									<p lang = "zh">我们衷心感谢您的慷慨捐赠。作为非营利组织，所有捐款都将用于扩充儿童教育资源。如有任何疑问，欢迎通过以下方式联系我们。</p>
 									<p lang = "en"> We sincerely appreciate your generous donation. As a nonprofit organization, all contributions will be dedicated to expanding educational resources for children. Should you have any inquiries, please feel free to contact us through the following channels.</p>
 									<ul class="actions stacked">
-										<li><a href="" class="button" style="background-color: #8bc1ff; color: white;">Donate</a></li>
+										<li><a href="#contact" class="button big wide smooth-scroll-middle" style="background-color: #8bc1ff; color: white;">Donate</a></li>
 									</ul>
 								</section>
 							</div>
@@ -489,12 +489,14 @@
 					</section>
 
 				<!-- Seven -->
-					<section class="wrapper style1 align-center">
+					<section class="wrapper style1 align-center" id = "contact">
 						<div class="inner medium">
 							<h2 lang = "zh">联系我们</h2>
+							<h3 lang = "zh"> (donate@eafi.us)</h3>
 							<h2 lang = "en"> Contact Us </h2>
+							<h3 lang = "en"> (donate@eafi.us)</h3>
 		
-						<form method="post" action="https://formspree.io/f/meokpezz">
+						<form method="post" action="mail.php"> <!--https://formspree.io/f/meokpezz-->
 								<div class="fields">
 									<div class="field half">
 										<label for="name" lang = "zh">名字</label>
@@ -505,6 +507,11 @@
 										<label for="email" lang = "zh">邮箱</label>
 										<label for="email" lang = "en">Email</label>
 										<input type="email" name="email" id="email" value="" />
+									</div>
+									<div class = "field">
+										<label for="subject" lang = "zh">主题</label>
+										<label for="subject" lang = "en">Subject</label>
+										<input type="text" name="subject" id="subject" value="" />
 									</div>
 									<div class="field">
 										<label for="message" lang = "zh">消息</label>
